@@ -23,9 +23,9 @@ BBB<-function(n,p,alpha,beta)
  
 }
 
-n<-1
+n<-2
 p<-0.3
-alpha<-1
+alpha<-0.1
 beta<-1
 
 BBB(n,p,alpha,beta)
@@ -58,4 +58,4 @@ BNN<-function(n,mu,sigma,theta,tau)
   
 }
 
-BNN(10,20,5,12,4)
+BNN(20,20,5,4,4)
